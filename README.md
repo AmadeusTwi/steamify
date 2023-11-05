@@ -29,7 +29,7 @@ P.S. Hey, I know I might not need all of these tools, stuff **will** change, and
 Roadmap is subject to change.
 
 - [x] Initial scaffold
-- [ ] Add mandatory commitlint
+- [x] Add mandatory commitlint
 - [ ] Add GitHub Actions for PRs, Releases, etc.
 - [ ] Add Turbopack - unsure yet
 - [ ] Implement Steamify design system with Tailwind CSS
