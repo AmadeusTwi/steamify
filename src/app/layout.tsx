@@ -1,3 +1,5 @@
+import "~/styles/globals.css";
+
 import localFont from "next/font/local";
 import { cookies } from "next/headers";
 
@@ -57,7 +59,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${motiva.className}`}>
+      <body className={`font-sans ${motiva.variable}`}>
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
         </TRPCReactProvider>
