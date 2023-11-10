@@ -32,8 +32,8 @@ Roadmap is subject to change.
 - [x] Add mandatory commitlint
 - [ ] Add GitHub Actions for PRs, Releases, etc.
 - [ ] Add Turbopack - unsure yet
-- [ ] Implement Steamify design system with Tailwind CSS
-- [ ] Add Motiva Sans font
+- [x] Implement Steamify design system with Tailwind CSS
+- [x] Add Motiva Sans font
 - [ ] Implement pages
   - [ ] Main page
   - [ ] Game store
