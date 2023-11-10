@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* System greys */
+    --gpSystemLightestGrey: #dcdedf;
+    --gpSystemLighterGrey: #b8bcbf;
+    --gpSystemLightGrey: #8b929a;
+    --gpSystemGrey: #67707b;
+    --gpSystemDarkGrey: #3d4450;
+    --gpSystemDarkerGrey: #23262e;
+    --gpSystemDarkestGrey: #0e141b;
+
+    /* Store blue greys */
+    --gpStoreLightestGrey: #ccd8e3;
+    --gpStoreLighterGrey: #a7bacc;
+    --gpStoreLightGrey: #7c8ea3;
+    --gpStoreGrey: #4e697d;
+    --gpStoreDarkGrey: #2a475e;
+    --gpStoreDarkerGrey: #1b2838;
+    --gpStoreDarkestGrey: #000f18;
+
+    /* Gradients */
+    --gpGradient-StoreBackground: linear-gradient(
+      180deg,
+      var(--gpStoreDarkGrey) 0%,
+      var(--gpStoreDarkerGrey) 80%
+    );
+    --gpGradient-LibraryBackground: radial-gradient(
+      farthest-corner at 40px 40px,
+      #3d4450 0%,
+      #23262e 80%
+    );
+
+    /* Colours */
+    --gpColor-Blue: #1a9fff;
+    --gpColor-BlueHi: #00bbff;
+    --gpColor-Green: #5ba32b;
+    --gpColor-GreenHi: #59bf40;
+    --gpColor-Orange: #e35e1c;
+    --gpColor-Red: #d94126;
+    --gpColor-RedHi: #ee563b;
+    --gpColor-DustyBlue: #417a9b;
+    --gpColor-LightBlue: #b3dfff;
+    --gpColor-Yellow: #ffc82c;
+    --gpColor-ChalkyBlue: #66c0f4;
+
+    /* Backgrounds */
+    --gpBackground-LightSofter: #6998bb24;
+    --gpBackground-LightSoft: #3b5a7280;
+    --gpBackground-LightMedium: #678ba670;
+    --gpBackground-LightHard: #93b8d480;
+    --gpBackground-LightHarder: #aacce6a6;
+
+    --gpBackground-DarkSofter: #0e141b33;
+    --gpBackground-DarkSoft: #0e141b66;
+    --gpBackground-DarkMedium: #0e141b99;
+    --gpBackground-DarkHard: #0e141bcc;
+
+    --gpBackground-Neutral-LightSofter: rgba(235, 246, 255, 0.1);
+    --gpBackground-Neutral-LightSoft: rgba(235, 246, 255, 0.2);
+    --gpBackground-Neutral-LightMedium: rgba(235, 246, 255, 0.3);
+    --gpBackground-Neutral-LightHard: rgba(235, 246, 255, 0.4);
+    --gpBackground-Neutral-LightHarder: rgba(235, 246, 255, 0.5);
+  }
+}
