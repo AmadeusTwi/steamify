@@ -9,17 +9,17 @@ const motiva = localFont({
   src: [
     {
       path: "./fonts/MotivaSansBlack.woff.ttf",
-      style: "normal",
+      style: "bold",
       weight: "900",
     },
     {
       path: "./fonts/MotivaSansBold.woff.ttf",
-      style: "normal",
+      style: "bold",
       weight: "700",
     },
     {
       path: "./fonts/MotivaSansExtraBold.ttf",
-      style: "normal",
+      style: "bold",
       weight: "800",
     },
     {
