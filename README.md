@@ -2,7 +2,12 @@
 
 This project is a showcase of Steam redesign, inspired by [Juxtopposed](https://www.youtube.com/@juxtopposed)'s [video](https://www.youtube.com/watch?v=cDY2p1CTkPo).
 
-> **Warning**
+> [!IMPORTANT]  
+> **Update from March 28th 2024:**
+>
+> Hey! It's me, AmadeusTwi, it's been a while since I touched on this project and my development halted for personal reasons. But soon enough, I will resume the development and I'm very sorry that I was not able to deliver on speed of the development. I feel like I let Juxtopposed's idea go to waste and the stars I got from this repo are undeserved, which is not what I want at all.
+
+> [!WARNING]
 > This app is a work in progress. I'm building this in public. You can follow the progress on my Twitter/X - [@AmadeusTwi](https://twitter.com/AmadeusTwi).
 > See the roadmap below.
 
