@@ -13,7 +13,7 @@ This project is a showcase of Steam redesign, inspired by [Juxtopposed](https://
 
 ## About this project
 
-Project's objective is to recreate the shown redesign as close as possible, using Next.js 14's features,  Tailwind CSS and other great tools out there.
+Project's objective is to recreate Juxtopposed's Steam redesign from their video with the coolest tech out there that I truly love and believe in!
 
 Initial scaffold was created using [create-t3-app](https://create.t3.gg/) and is subject to change depending on the project's needs - features may be added and even deleted.
 
@@ -22,12 +22,12 @@ Initial scaffold was created using [create-t3-app](https://create.t3.gg/) and is
 - Next.js App Router
 - Authentication using **NextAuth.js** (might consider **Clerk**)
 - ORM using **Drizzle**
-- Database on **PlanetScale**
 - Styled using **Tailwind CSS**
 - Validations using **Zod**
 - Written in **TypeScript**
 
-P.S. Hey, I know I might not need all of these tools, stuff **will** change, and I'm open to suggestions.
+> [!NOTE]
+> Hey, I know I might not need all of these tools, stuff **will** change, and I'm open to suggestions.
 
 ## Roadmap
 
@@ -39,6 +39,7 @@ Roadmap is subject to change.
 - [ ] Add Turbopack - unsure yet
 - [x] Implement Steamify design system with Tailwind CSS
 - [x] Add Motiva Sans font
+- [ ] Consider new database options since Planetscale gets rid of free plan
 - [ ] Implement pages
   - [ ] Main page
   - [ ] Game store
